@@ -9,6 +9,7 @@ if (n) {
   System.out.println("n is a positive integer");
 }
 ```
+>Answer:
 - [x] static error
 - [ ] dynamic error
 - [ ] no error, wrong answer
@@ -22,6 +23,7 @@ if (n) {
 int big = 200000; // 200,000
 big = big * big;  // big should be 40 billion now
 ```
+>Answer:
 - [ ] static error
 - [ ] dynamic error
 - [x] no error, wrong answer
@@ -35,6 +37,7 @@ big = big * big;  // big should be 40 billion now
 ```java
 double probability = 1/5;
 ```
+>Answer:
 - [ ] static error
 - [ ] dynamic error
 - [x] no error, wrong answer
@@ -48,6 +51,7 @@ int sum = 0;
 int n = 0;
 int average = sum/n;
 ```
+>Answer:
 - [ ] static error
 - [ ] dynamic error
 - [x] no error, wrong answer
@@ -63,6 +67,7 @@ double sum = 7;
 double n = 0;
 double average = sum/n;
 ```
+>Answer:
 - [ ] static error
 - [ ] dynamic error
 - [x] no error, wrong answer
@@ -88,6 +93,7 @@ public static List<Integer> hailstoneSequence(int n) {
     return list;
 }
 ```
+>Answer:
 - [ ] `int n`
 - [x] `List<Integer> list`
 >Explanation:
@@ -101,6 +107,7 @@ def funFactAbout(person):
   if sqrt(person.age) == int(sqrt(person.age)):
     print("The age of " + person.name + " is a perfect square: " + str(person.age))
 ```
+>Answer:
 - [x] `person` must be an object with `age` and `name` instance variables
 - [x] `person` is not None
 - [x] `person.age` must be a nonnegative number
@@ -113,6 +120,7 @@ def funFactAbout(person):
 而$+$号运算符的运算对象必须是同类型的,所以`person.name`也必须是字符串
 
 ### Question:如果此代码改为用 Java 编写,则以下哪些假设可以通过类型声明记录并由 Java 编译器进行静态检查？ （独立于上面的问题回答这个问题,即包括代码实际上不依赖的假设.）
+>Answer:
 - [x] `person` must be an object with `age` and `name` instance variables
 - [x] `person` is not None
 - [x] `person.age` must be a nonnegative number
